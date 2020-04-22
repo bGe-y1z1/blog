@@ -1,0 +1,32 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "装b的起点",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bGe-y1z1/blog.git"
+  },
+  "keywords": [
+    "vue",
+    "react",
+    "node",
+    "webpack",
+    "wx",
+    "RN",
+    "flutter",
+    "js",
+    "ts"
+  ],
+  "author": "bGe-y1z1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bGe-y1z1/blog/issues"
+  },
+  "homepage": "https://github.com/bGe-y1z1/blog#readme"
+}
