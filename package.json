@@ -4,15 +4,12 @@
   "description": "装b的起点",
   "main": "index.js",
   "dependencies": {
-    "element-ui": "^2.13.1"
-  },
-  "devDependencies": {
-    "node-sass": "^4.13.1",
-    "sass-loader": "^8.0.2",
-    "vuepress": "^1.4.1"
+    "element-ui": "^2.3.6"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev ",
+    "docs:build": "vuepress build "
   },
   "repository": {
     "type": "git",
@@ -34,5 +31,8 @@
   "bugs": {
     "url": "https://github.com/bGe-y1z1/blog/issues"
   },
-  "homepage": "https://github.com/bGe-y1z1/blog#readme"
+  "homepage": "https://github.com/bGe-y1z1/blog#readme",
+  "devDependencies": {
+    "sass-loader": "^8.0.2"
+  }
 }

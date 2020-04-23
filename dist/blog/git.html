@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>git 命令行 | B格</title>
+    <meta name="generator" content="VuePress 1.4.1">
+    
+    <meta name="description" content=" 装B的起点">
+    <link rel="preload" href="/assets/css/0.styles.c14d9a4b.css" as="style"><link rel="preload" href="/assets/js/app.b30ace55.js" as="script"><link rel="preload" href="/assets/js/2.cab37119.js" as="script"><link rel="preload" href="/assets/js/3.df6a8ba6.js" as="script"><link rel="preload" href="/assets/js/10.b0dc6e71.js" as="script"><link rel="prefetch" href="/assets/js/11.8c91c7b4.js"><link rel="prefetch" href="/assets/js/12.c35e0be4.js"><link rel="prefetch" href="/assets/js/13.a3bfd371.js"><link rel="prefetch" href="/assets/js/14.72623496.js"><link rel="prefetch" href="/assets/js/15.f15f56fe.js"><link rel="prefetch" href="/assets/js/16.573985b4.js"><link rel="prefetch" href="/assets/js/17.81cb1f0b.js"><link rel="prefetch" href="/assets/js/18.19f512df.js"><link rel="prefetch" href="/assets/js/19.9f113761.js"><link rel="prefetch" href="/assets/js/20.b04952ab.js"><link rel="prefetch" href="/assets/js/21.a1d75955.js"><link rel="prefetch" href="/assets/js/22.9fdb1f01.js"><link rel="prefetch" href="/assets/js/4.bdd70ad8.js"><link rel="prefetch" href="/assets/js/5.a677749f.js"><link rel="prefetch" href="/assets/js/6.fa7f2773.js"><link rel="prefetch" href="/assets/js/7.843fb85c.js"><link rel="prefetch" href="/assets/js/8.92d5c097.js"><link rel="prefetch" href="/assets/js/9.0b3a9582.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.c14d9a4b.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/hero.png" alt="B格" class="logo"></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">home</a></div><div class="nav-item"><a href="/pages/vue/component/" class="nav-link">vue</a></div><div class="nav-item"><a href="/pages/react/" class="nav-link">react</a></div><div class="nav-item"><a href="/pages/node/" class="nav-link">node</a></div><div class="nav-item"><a href="/pages/webpack/" class="nav-link">webpack</a></div><div class="nav-item"><a href="/pages/wx/" class="nav-link">wx</a></div><div class="nav-item"><a href="/pages/reactNative/" class="nav-link">RN</a></div><div class="nav-item"><a href="/pages/flutter/" class="nav-link">flutter</a></div><div class="nav-item"><a href="/blog/" class="nav-link router-link-active">blog</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">home</a></div><div class="nav-item"><a href="/pages/vue/component/" class="nav-link">vue</a></div><div class="nav-item"><a href="/pages/react/" class="nav-link">react</a></div><div class="nav-item"><a href="/pages/node/" class="nav-link">node</a></div><div class="nav-item"><a href="/pages/webpack/" class="nav-link">webpack</a></div><div class="nav-item"><a href="/pages/wx/" class="nav-link">wx</a></div><div class="nav-item"><a href="/pages/reactNative/" class="nav-link">RN</a></div><div class="nav-item"><a href="/pages/flutter/" class="nav-link">flutter</a></div><div class="nav-item"><a href="/blog/" class="nav-link router-link-active">blog</a></div> <!----></nav>  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="git-命令行"><a href="#git-命令行" class="header-anchor">#</a> git 命令行</h1> <p><img src="/git.png" style="max-width:40%;"></p> <h2 id="目录"><a href="#目录" class="header-anchor">#</a> 目录</h2> <ol><li><p><a href="##%E6%9C%AC%E5%9C%B0%E5%BA%93">本地库</a></p></li> <li><p><a href="#%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93">远程仓库</a></p></li> <li><p><a href="#%E5%88%86%E6%94%AF%E7%AE%A1%E7%90%86">分支管理</a></p> <p>3.1 <a href="#%E5%88%9B%E5%BB%BA%E4%B8%8E%E5%90%88%E5%B9%B6%E5%88%86%E6%94%AF">创建与合并分支</a></p> <p>3.2 <a href="#%E8%A7%A3%E5%86%B3%E5%86%B2%E7%AA%81">解决冲突</a></p></li> <li><p><a href="#%E6%A0%87%E7%AD%BE%E7%AE%A1%E7%90%86">标签管理</a></p> <p>4.1 <a href="#%E5%88%9B%E5%BB%BA%E6%A0%87%E7%AD%BE">创建标签</a></p> <p>4.2 <a href="#%E6%93%8D%E4%BD%9C%E6%A0%87%E7%AD%BE">操作标签</a></p></li></ol> <br> <h2 id="本地库"><a href="#本地库" class="header-anchor">#</a> 本地库</h2> <blockquote><p>初始化一个 Git 版本库</p></blockquote> <div class="language- extra-class"><pre><code>git init
+</code></pre></div><blockquote><p>查看 Git 版本库状态</p></blockquote> <div class="language- extra-class"><pre><code>git status
+</code></pre></div><blockquote><p>查看被改动文件的详细信息</p></blockquote> <div class="language- extra-class"><pre><code>git diff &lt;fileName&gt;
+</code></pre></div><blockquote><p>将文件加入缓存区</p></blockquote> <div class="language- extra-class"><pre><code>git add &lt;fileName&gt;
+</code></pre></div><blockquote><p>提交到版本库</p></blockquote> <div class="language- extra-class"><pre><code>git commit -m 'message'
+</code></pre></div><blockquote><p>查看版本库操作日志</p></blockquote> <div class="language- extra-class"><pre><code>git log
+</code></pre></div><blockquote><p>格式显示版本库操作日志</p></blockquote> <div class="language- extra-class"><pre><code>git log --pretty=oneline
+</code></pre></div><blockquote><p>回滚（重置）版本库</p></blockquote> <div class="language- extra-class"><pre><code>git reset --hard &lt;版本号&gt;
+</code></pre></div><blockquote><p><strong>工作区（Woking Directory）</strong></p></blockquote> <div class="language- extra-class"><pre><code>就是你在电脑里能看到的目录，或者说你当前 Git 版本库所在的文件夹
+</code></pre></div><blockquote><p><strong>版本库（Repository）</strong></p></blockquote> <p>工作区有一个隐藏的目录 .git,这个不算工作区,而是 Git 的版本库
+Git的版本库里存了很多东西，其中最重要的就是称为 <code>stage</code>(或者叫 <code>index</code>) 的暂存区，
+还有 Git 为我们自动创建的第一个分支 <code>master</code>，以及指向 <code>master</code> 的一个指针叫做 <code>HEAD</code>。</p> <blockquote><p>撤销工作区修改</p></blockquote> <div class="language- extra-class"><pre><code>git checkout -- &lt;fileName&gt;
+</code></pre></div><blockquote><p>撤销暂存区修改</p></blockquote> <div class="language- extra-class"><pre><code>git reset HEAD &lt;fileName&gt;
+</code></pre></div><blockquote><p>删除文件</p></blockquote> <div class="language- extra-class"><pre><code>git rm &lt;fileName&gt;
+</code></pre></div><br> <h2 id="远程仓库"><a href="#远程仓库" class="header-anchor">#</a> 远程仓库</h2> <blockquote><p>关联远程仓库</p></blockquote> <div class="language- extra-class"><pre><code>git remote add origin git@github.com:&lt;github地址&gt;/&lt;仓库名称&gt;.git
+</code></pre></div><blockquote><p>将内容推送的远程库</p></blockquote> <div class="language- extra-class"><pre><code>git push -u origin &lt;分支&gt;
+git push origin &lt;分支&gt;
+</code></pre></div><p>第一次推送 <code>master</code> 分支时，加上了 <code>-u</code> 参数，Git 不但会把本地的 <code>master</code> 分支内容推送到远程新的 <code>master</code> 分支，
+还会把本地的 <code>master</code> 分支和远程的 <code>master</code> 分支关联起来，在以后的推送或者拉取时就可以简化命令。</p> <blockquote><p>克隆远程库</p></blockquote> <div class="language- extra-class"><pre><code>git clone git@github.com:&lt;github地址&gt;/&lt;仓库名称&gt;.git
+</code></pre></div><br> <h2 id="分支管理"><a href="#分支管理" class="header-anchor">#</a> 分支管理</h2> <h3 id="创建与合并分支"><a href="#创建与合并分支" class="header-anchor">#</a> 创建与合并分支</h3> <blockquote><p>创建并切换分支</p></blockquote> <div class="language- extra-class"><pre><code>git checkout -b &lt;branchName&gt;
+</code></pre></div><blockquote><p>查看分支</p></blockquote> <div class="language- extra-class"><pre><code>git branch
+</code></pre></div><blockquote><p>切换分支</p></blockquote> <div class="language- extra-class"><pre><code>git checkout &lt;branchName&gt;
+</code></pre></div><blockquote><p>合并分支</p></blockquote> <div class="language- extra-class"><pre><code>git merge &lt;branchName&gt;
+</code></pre></div><blockquote><p>删除分支</p></blockquote> <div class="language- extra-class"><pre><code>git branch -d &lt;branchName&gt;
+</code></pre></div><h3 id="解决冲突"><a href="#解决冲突" class="header-anchor">#</a> 解决冲突</h3> <blockquote><p>查看分支合并情况</p></blockquote> <div class="language- extra-class"><pre><code>git log --graph --pertty=oneline --abbrev-commit
+</code></pre></div><blockquote><p>储藏</p></blockquote> <div class="language- extra-class"><pre><code>git stash
+</code></pre></div><blockquote><p>查看储藏列表</p></blockquote> <div class="language- extra-class"><pre><code>git stash list
+</code></pre></div><blockquote><p>应用储藏</p></blockquote> <div class="language- extra-class"><pre><code>git stash apply &lt;stash@{xx}&gt;
+</code></pre></div><blockquote><p>删除储藏</p></blockquote> <div class="language- extra-class"><pre><code>git stash drop &lt;index | stash&gt;
+</code></pre></div><blockquote><p>应用并删除储藏</p></blockquote> <div class="language- extra-class"><pre><code>git stash pop &lt;index | stash&gt;
+</code></pre></div><blockquote><p>显示储藏信息</p></blockquote> <div class="language- extra-class"><pre><code>git stash show &lt;index | stash&gt;
+</code></pre></div><blockquote><p>查看远程库信息</p></blockquote> <div class="language- extra-class"><pre><code>git remote
+</code></pre></div><blockquote><p>查看远程库详细信息</p></blockquote> <div class="language- extra-class"><pre><code>git remote -v
+</code></pre></div><blockquote><p>推送分支</p></blockquote> <div class="language- extra-class"><pre><code>git push origin &lt;branchName&gt;
+</code></pre></div><br> <h2 id="标签管理"><a href="#标签管理" class="header-anchor">#</a> 标签管理</h2> <h3 id="创建标签"><a href="#创建标签" class="header-anchor">#</a> 创建标签</h3> <blockquote><p>创建标签</p></blockquote> <div class="language- extra-class"><pre><code>git tag &lt;name&gt;
+</code></pre></div><blockquote><p>查看标签</p></blockquote> <div class="language- extra-class"><pre><code>git tag
+</code></pre></div><blockquote><p>为commit id 添加标签</p></blockquote> <div class="language- extra-class"><pre><code>git tag &lt;commit id&gt;
+</code></pre></div><blockquote><p>查看标签信息</p></blockquote> <div class="language- extra-class"><pre><code>git show &lt;tagName&gt;
+</code></pre></div><blockquote><p>创建带有说明的标签</p></blockquote> <div class="language- extra-class"><pre><code>git tag -a &lt;tagName&gt; -m 'your message'
+</code></pre></div><h3 id="操作标签"><a href="#操作标签" class="header-anchor">#</a> 操作标签</h3> <blockquote><p>删除标签</p></blockquote> <div class="language- extra-class"><pre><code>git tag -d &lt;tagName&gt;
+</code></pre></div><blockquote><p>推送标签到远程</p></blockquote> <div class="language- extra-class"><pre><code>git push origin &lt;tagName&gt;
+</code></pre></div><blockquote><p>推送所以标签</p></blockquote> <div class="language- extra-class"><pre><code>git push origin --tags
+</code></pre></div><blockquote><p>删除远程标签</p></blockquote> <p>删除远程标签需，要先删除本地标签，然后再执行</p> <div class="language- extra-class"><pre><code>git push origin :refs/tags/&lt;tagNameg&gt;
+</code></pre></div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">4/22/2020, 6:53:59 PM</span></div></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.b30ace55.js" defer></script><script src="/assets/js/2.cab37119.js" defer></script><script src="/assets/js/3.df6a8ba6.js" defer></script><script src="/assets/js/10.b0dc6e71.js" defer></script>
+  </body>
+</html>
