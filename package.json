@@ -3,8 +3,14 @@
   "version": "1.0.0",
   "description": "装b的起点",
   "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {},
+  "dependencies": {
+    "element-ui": "^2.13.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "vuepress": "^1.4.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
