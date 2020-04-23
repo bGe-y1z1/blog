@@ -10,7 +10,7 @@ module.exports = {
     lastUpdated: 'Last Updated',
     nav: [
       { text: 'home', link: '/' },
-      { text: 'vue', link: '/pages/vue/component/'},
+      { text: 'vue', link: '/pages/vue/'},
       { text: 'react',link: '/pages/react/'},
       { text: 'node', link: '/pages/node/'},
       { text: 'webpack', link: '/pages/webpack/'},
@@ -18,6 +18,7 @@ module.exports = {
       { text: 'RN',link: '/pages/reactNative/'},
       { text: 'flutter',link: '/pages/flutter/'},
       { text: 'blog', link: '/blog/' },
+      { text: 'github', link: 'https://github.com/bGe-y1z1/blog' },
     ],
     sidebar: {
       '/pages/vue/': [
