@@ -28,10 +28,42 @@ module.exports = {
       
       ],
       '/pages/node/': [
+       {
+        title: 'node',
+        collapsable: true,
+        sidebarDepth: 0,
+        children:[
+          'commonJS',
+         ]
+       } 
        
       ],
       '/pages/webpack/': [
-        
+        {
+          title: 'webpack',
+          collapsable: true,
+          sidebarDepth: 2,
+          children:[
+           'base',
+           'optimization',
+            { 
+              title: '手写loader', 
+              path:'/pages/webpack/loader/',
+              collapsable: true,
+              children:[
+                { title: '原理', path:'/pages/webpack/loader/base'},
+               ]
+            },
+            { 
+              title: '手写plugins', 
+              path:'/pages/webpack/plugins/', 
+              collapsable: true,
+              children:[
+                { title: '原理', path:'/pages/webpack/plugins/base'},
+               ]
+            },
+          ]
+        },
       ],
       '/pages/reactNative/': [
        
@@ -46,6 +78,6 @@ module.exports = {
         '',     /* /foo/ */
       ],
 
-    }
+    },
   }
 }

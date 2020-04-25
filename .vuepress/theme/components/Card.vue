@@ -8,10 +8,10 @@
           </h2>
           <div class="article-content">
             <div class="banner-box" :style="[{
-          backgroundColor: `#f1f1f1`,
+          
           backgroundImage: `url(${item.img})`,
           backgroundRepeat: `no-repeat`,
-          backgroundSize: `contain`,
+          backgroundSize: `100% 100%`,
           backgroundPosition: `center center dgjrk `
         }]">
             </div>

@@ -23,11 +23,18 @@ items:
   date: 2019-11-27
   img: /blob.png
 
-- title: Vue Or React
-  description: vue和react对比
+- title: jenkins 持续部署
+  description: jenkins搭建和配置node项目
   author: 丁金虎
-  link: frame
-  date: 2020-4-16
-  img: /blob.png
+  link: jenkins
+  date: 2019-4-22
+  img: /jenkins/logo.jpeg
+
+- title: AMD、CMD、CommonJs、ES6的对比
+  description: 模块化解决的方案的对比
+  author: 丁金虎
+  link: module
+  date: 2019-4-25
+  img: /jenkins/logo.jpeg
 ---
 
