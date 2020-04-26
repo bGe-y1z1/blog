@@ -42,6 +42,6 @@ items:
   author: 丁金虎
   link: codingStandards
   date: 2019-4-26
-  img: ''
+  img: '/codingStandards/codingStandards.webp'
 ---
 
