@@ -35,6 +35,13 @@ items:
   author: 丁金虎
   link: module
   date: 2019-4-25
-  img: /jenkins/logo.jpeg
+  img: ''
+
+- title: vscode & eslint
+  description: 规范自己的代码风格，减少程序出错的概率
+  author: 丁金虎
+  link: codingStandards
+  date: 2019-4-26
+  img: ''
 ---
 
