@@ -1,4 +1,4 @@
-## mode 属性
+# 打包模式 mode
 
 webpack 的 mode 配置用于提供模式配置选项告诉 webpack 相应地使用其内置的优化，mode 有以下三个可选值
 
