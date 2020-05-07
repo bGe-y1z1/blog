@@ -11,7 +11,6 @@ module.exports = {
     lastUpdated: 'Last Updated',
     nav: [
       { text: 'home', link: '/' },
-      // { text: 'js', link: '/pages/js/' },
       // { text: 'ts', link: '/pages/ts/' },
       // { text: 'ES6', link: '/pages/es/' },
       { text: 'vue', link: '/pages/vue/' },
@@ -32,7 +31,7 @@ module.exports = {
           title: 'node',
           collapsable: true,
           sidebarDepth: 0,
-          children: ['commonJS'],
+          children: ['commonJS', 'path'],
         },
       ],
       '/pages/webpack/': [
@@ -43,7 +42,6 @@ module.exports = {
           children: [
             {
               title: '基本配置',
-              // path: '/pages/webpack/base/',
               collapsable: true,
               children: [
                 { title: '打包模式', path: '/pages/webpack/base/mode' },
@@ -57,7 +55,6 @@ module.exports = {
             },
             {
               title: 'loader',
-              // path: '/pages/webpack/loader/',
               collapsable: true,
               children: [
                 { title: '原理', path: '/pages/webpack/loader/base' },
@@ -73,7 +70,10 @@ module.exports = {
                 // { title: '解析', path: '/pages/webpack/plugins/base' },
               ],
             },
-            'optimization',
+            {
+              title: '优化项',
+              path: '/pages/webpack/optimization',
+            },
           ],
         },
       ],
