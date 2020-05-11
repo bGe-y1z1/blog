@@ -41,7 +41,7 @@ items:
     author: bGe-hu
     link: module
     date: 2019-4-25
-    img: ''
+    img: '/commonJs.png'
 
   - title: vscode & eslint
     description: 规范自己的代码风格，减少程序出错的概率
@@ -56,4 +56,11 @@ items:
     img: '/vue.png'
     date: '2019-4-27'
     author: Sprig
+
+  - title: 'webpack4'
+    description: '记一次webpack4 搭建尝试'
+    link: webpack
+    img: '/webpack/webpack.webp'
+    date: '2019-5-9'
+    author: bGe-hu
 ---

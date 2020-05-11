@@ -74,6 +74,14 @@ module.exports = {
               title: '优化项',
               path: '/pages/webpack/optimization',
             },
+            {
+              title: '原理',
+              path: '/pages/webpack/principle',
+            },
+            {
+              title: 'tapable',
+              path: '/pages/webpack/tapable',
+            },
           ],
         },
       ],
