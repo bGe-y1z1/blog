@@ -11,12 +11,12 @@ module.exports = {
     lastUpdated: 'Last Updated',
     nav: [
       { text: 'home', link: '/' },
-      // { text: 'ts', link: '/pages/ts/' },
-      // { text: 'ES6', link: '/pages/es/' },
+      { text: 'webpack', link: '/pages/webpack/' },
+      { text: 'ES6', link: '/pages/es/' },
       { text: 'vue', link: '/pages/vue/' },
       { text: 'react', link: '/pages/react/' },
       { text: 'node', link: '/pages/node/' },
-      { text: 'webpack', link: '/pages/webpack/' },
+      // { text: 'ts', link: '/pages/ts/' },
       // { text: 'wx', link: '/pages/wx/' },
       // { text: 'RN', link: '/pages/reactNative/' },
       // { text: 'flutter', link: '/pages/flutter/' },
@@ -58,7 +58,14 @@ module.exports = {
               collapsable: true,
               children: [
                 { title: '原理', path: '/pages/webpack/loader/base' },
-                // { title: '解析', path: '/pages/webpack/plugins/styelLoader' },
+                {
+                  title: 'bableLoder',
+                  path: '/pages/webpack/loader/babelLoader',
+                },
+                {
+                  title: 'urlLoder',
+                  path: '/pages/webpack/loader/urlLoader',
+                },
               ],
             },
             {
@@ -67,7 +74,7 @@ module.exports = {
               collapsable: true,
               children: [
                 { title: '原理', path: '/pages/webpack/plugins/base' },
-                // { title: '解析', path: '/pages/webpack/plugins/base' },
+                { title: 'fileList', path: '/pages/webpack/plugins/fileList' },
               ],
             },
             {
@@ -88,7 +95,6 @@ module.exports = {
       '/pages/reactNative/': [],
       '/pages/wx/': [],
       '/pages/flutter/': [],
-      '/pages/blog/': ['' /* /foo/ */],
     },
   },
 };
