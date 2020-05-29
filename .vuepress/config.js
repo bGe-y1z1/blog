@@ -12,7 +12,7 @@ module.exports = {
     nav: [
       { text: 'home', link: '/' },
       { text: 'webpack', link: '/pages/webpack/' },
-      { text: 'ES6', link: '/pages/es/' },
+      { text: 'ES6', link: '/pages/es6/letVarConst' },
       { text: 'vue', link: '/pages/vue/' },
       { text: 'react', link: '/pages/react/' },
       { text: 'node', link: '/pages/node/' },
@@ -88,6 +88,27 @@ module.exports = {
             {
               title: 'tapable',
               path: '/pages/webpack/tapable',
+            },
+          ],
+        },
+      ],
+      '/pages/es6/': [
+        {
+          title: 'es6',
+          path: '/pages/es6/letVarConst',
+          collapsable: true,
+          children: [
+            {
+              title: 'let和const命令',
+              path: '/pages/es6/letVarConst',
+            },
+            {
+              title: '解构赋值',
+              path: '/pages/es6/destructuring',
+            },
+            {
+              title: '扩展',
+              path: '/pages/es6/expand',
             },
           ],
         },
