@@ -1,12 +1,12 @@
 ---
 component: item-list
 items:
-  - title: 'vue简单入门'
+  - title: "vue简单入门"
     description: vue入门及常犯错误和注意点
     author: Sprig
     link: vueStart
     date: 2018-06-19
-    img: '/vue.png'
+    img: "/vue.png"
 
   - title: git 命令行
     description: 关于我对 git 命令的一些记录。
@@ -41,26 +41,32 @@ items:
     author: bGe-hu
     link: module
     date: 2019-4-25
-    img: '/commonJs.png'
+    img: "/commonJs.png"
 
   - title: vscode & eslint
     description: 规范自己的代码风格，减少程序出错的概率
     author: bGe-hu
     link: codingStandards
     date: 2019-4-26
-    img: '/codingStandards/codingStandards.webp'
+    img: "/codingStandards/codingStandards.webp"
 
-  - title: 'Vue项目优化之组件按需加载'
+  - title: "Vue项目优化之组件按需加载"
     description: Vue组件按需加载
     link: loadOnDemand
-    img: '/vue.png'
-    date: '2019-4-27'
+    img: "/vue.png"
+    date: "2019-4-27"
     author: Sprig
 
-  - title: 'webpack4'
-    description: '记一次webpack4 搭建尝试'
+  - title: "webpack4"
+    description: "记一次webpack4 搭建尝试"
     link: webpack
-    img: '/webpack/webpack.webp'
-    date: '2019-5-9'
+    img: "/webpack/webpack.webp"
+    date: "2019-5-9"
+    author: bGe-hu
+  - title: "微前端的架构思想"
+    description: "微前端的设计思路"
+    link: mfe
+    img: "/mfe/mfe.jpeg"
+    date: "2019-6-11"
     author: bGe-hu
 ---
