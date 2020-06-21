@@ -63,10 +63,10 @@ items:
     img: "/webpack/webpack.webp"
     date: "2019-5-9"
     author: bGe-hu
-  - title: "微前端的架构思想"
-    description: "微前端的设计思路"
+  - title: "微前端"
+    description: "微前端的"
     link: mfe
     img: "/mfe/mfe.jpeg"
-    date: "2019-6-11"
+    date: "2019-6-21"
     author: bGe-hu
 ---
