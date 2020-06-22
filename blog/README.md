@@ -67,6 +67,6 @@ items:
     description: "微前端的"
     link: mfe
     img: "/mfe/mfe.jpeg"
-    date: "2019-6-21"
+    date: "2020-6-21"
     author: bGe-hu
 ---

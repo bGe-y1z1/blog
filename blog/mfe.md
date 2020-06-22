@@ -2,11 +2,11 @@
 
 ## 主应用和子应用的构建
 
-主应用和子应用全使用 vue-cli 快速搭建。
+主应用和子应用全使用 `vue-cli` 快速搭建。
 
 ### 主应用
 
-创建应用管理器 main 通过 qiankun 管理和注册子应用
+创建应用管理器 main 通过 `qiankun` 管理和注册子应用
 
 ```js
 // 安装 @vue/cli
@@ -25,7 +25,7 @@ npm run serve
 - vue 类子应用和主应用的构建方式一样
 
 不同点：
-1、需要将打包文件输出为 umd(同一个代码模块在使用 CommonJs、CMD 甚至是 AMD 的项目中运行)
+1、需要将打包文件输出为 umd(同一个代码模块在使用 `CommonJs`、`CMD` 甚至是 `AMD` 的项目中运行)
 
 ```js
 const path = require("path");
@@ -72,8 +72,8 @@ module.exports = {
 
 2、需要修改入口 main.js
 
-- 初始化 vue 实例 需区分运行环境挂载在不同的根元素
-- 初始化 router 实例 需区分运行环境是指根路径
+- 初始化 `vue` 实例 需区分运行环境挂载在不同的根元素
+- 初始化 `router` 实例 需区分运行环境是指根路径
 - 接受参数
 - 执行生命周期函数
 
@@ -146,7 +146,7 @@ export async function unmount() {
 
 ## 注册子应用
 
-采用市场上的脚手架 qiankun
+采用市场上的脚手架 `qiankun`
 
 - registerMicroApps
   注册子应用 entry 子应用的入口就是子应用的服务地址，container 子应用的挂载元素 activeRule 子应用的匹配路由
@@ -267,7 +267,7 @@ runAfterFirstMounted(() => {
 
 ## 主应用路由
 
-通过 history 库实现跨应用的路由跳转。子应用内部实例化自己的路由
+通过 `history` 库实现跨应用的路由跳转。子应用内部实例化自己的路由
 
 ```html
 <div id="subapp-container">
@@ -291,7 +291,7 @@ runAfterFirstMounted(() => {
 
 ## 打包&部署
 
-通过 jenkins 集成代码规范检查、打包和部署
+通过 `jenkins` 集成代码规范检查、打包和部署
 
 ### 打包
 
@@ -305,7 +305,7 @@ runAfterFirstMounted(() => {
 
 ### 部署
 
-通过 nginx 监听端口访问项目的主文件，端口为注册子应用的的端口，配置好跨域范围和日志文件
+通过 `nginx` 监听端口访问项目的主文件，端口为注册子应用的的端口，配置好跨域范围和日志文件
 
 ## 聚合现有架构
 
@@ -325,19 +325,19 @@ runAfterFirstMounted(() => {
 
 ### 入口代理
 
-入口服务通过 nginx 代理到 PHP 服务，根据现有的模块分别代理
+入口服务通过 `nginx` 代理到 PHP 服务，根据现有的模块分别代理
 
 ## 公用资源管理
 
-通过搭建 zqnpm 私有库的方式引入公共类或者业务组件
+通过搭建 `zqnpm` 私有库的方式引入公共类或者业务组件
 
 ## 服务构建
 
-如果考虑通过 node 服务代理接口、模块请求的封装、前端访问数据库、管理 session 可以使用 thinkjs 框架
+如果考虑通过 `node` 服务代理接口、模块请求的封装、前端访问数据库、管理 `session` 可以使用 `thinkjs` 框架
 
 ### 服务端构建
 
-安装 think-cli thinkjs 框架脚手架
+安装 think-cli `thinkjs` 框架脚手架
 
 ```js
 // 安装
