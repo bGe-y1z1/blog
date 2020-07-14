@@ -24,7 +24,121 @@ module.exports = {
       { text: "github", link: "https://github.com/bGe-y1z1/blog" },
     ],
     sidebar: {
-      "/pages/vue/": [],
+      "/pages/vue/": [
+        {
+          title: "vue",
+          path: "/pages/vue/",
+          collapsable: true,
+          children: [
+            {
+              title: "基础",
+              collapsable: true,
+              children: [
+                {
+                  title: "指令",
+                  path: "/pages/vue/base/todo",
+                },
+                {
+                  title: "生命周期",
+                  path: "/pages/vue/base/todo",
+                },
+                {
+                  title: "函数式组件",
+                  path: "/pages/vue/base/todo",
+                },
+                {
+                  title: "虚拟DOM",
+                  path: "/pages/vue/base/todo",
+                },
+                {
+                  title: "模版语法",
+                  path: "/pages/vue/base/todo",
+                },
+                {
+                  title: "JSX",
+                  path: "/pages/vue/base/todo",
+                },
+                {
+                  title: "组件",
+                  path: "/pages/vue/base/todo",
+                },
+                {
+                  title: "计算属性",
+                  path: "/pages/vue/base/todo",
+                },
+                {
+                  title: "侦听器",
+                  path: "/pages/vue/base/todo",
+                },
+                {
+                  title: "provide/inject",
+                  path: "/pages/vue/base/todo",
+                },
+                {
+                  title: "双向绑定",
+                  path: "/pages/vue/base/todo",
+                },
+                {
+                  title: "模块化css",
+                  path: "/pages/vue/base/todo",
+                },
+              ],
+            },
+            {
+              title: "vueRouter",
+              path: "/pages/vue/base/todo",
+            },
+            {
+              title: "vuex",
+              collapsable: true,
+              children: [
+                {
+                  title: "state",
+                  path: "/pages/vue/base/todo",
+                },
+                {
+                  title: "getter",
+                  path: "/pages/vue/base/todo",
+                },
+                {
+                  title: "mutation",
+                  path: "/pages/vue/base/todo",
+                },
+                {
+                  title: "action",
+                  path: "/pages/vue/base/todo",
+                },
+                {
+                  title: "module",
+                  path: "/pages/vue/base/todo",
+                },
+              ],
+            },
+            {
+              title: "同构",
+              collapsable: true,
+              children: [
+                {
+                  title: "ssr",
+                  path: "/pages/vue/base/todo",
+                },
+                {
+                  title: "nuxt",
+                  path: "/pages/vue/base/todo",
+                },
+                {
+                  title: "spa",
+                  path: "/pages/vue/base/todo",
+                },
+              ],
+            },
+            {
+              title: "cli",
+              path: "/pages/vue/base/todo",
+            },
+          ],
+        },
+      ],
       "/pages/react/": [],
       "/pages/node/": [
         {
@@ -117,6 +231,26 @@ module.exports = {
             {
               title: "symbol",
               path: "/pages/es6/symbol",
+            },
+            {
+              title: "proxy",
+              path: "/pages/es6/proxy",
+            },
+            {
+              title: "Genertor",
+              path: "/pages/es6/generator",
+            },
+            {
+              title: "promise",
+              path: "/pages/es6/promise",
+            },
+            {
+              title: "class",
+              path: "/pages/es6/class",
+            },
+            {
+              title: "decorator",
+              path: "/pages/es6/decorator",
             },
           ],
         },
